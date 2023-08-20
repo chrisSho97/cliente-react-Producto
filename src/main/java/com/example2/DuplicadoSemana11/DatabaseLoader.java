@@ -23,19 +23,19 @@ public class DatabaseLoader implements CommandLineRunner {
 	@Override
 	public void run(String... strings ) throws Exception {
 
-        this.repositoryP.save(new Producto("Arroz", 10.00));
-         this.repositoryP.save(new Producto("Aceite", 10.00));
-          this.repositoryP.save(new Producto("Mermelada", 2.00));
+        this.repositoryP.save(new Producto("Arroz", 10.50));
+         this.repositoryP.save(new Producto("Aceite", 10.45));
+          this.repositoryP.save(new Producto("Mermelada", 2.60));
            this.repositoryP.save(new Producto("Mantequilla", 5.00));
 		
-		Producto parroz = new Producto("Arroz",10.00);
+		Producto parroz = new Producto("Arroz",10.50);
 		this.repositoryP.save(parroz );
-		Producto paceite = new Producto("Aceite",6.00);
+		Producto paceite = new Producto("Aceite",10.45);
 		this.repositoryP.save(paceite);
-		this.repositoryP.save(new Producto("Azucar",5.00));
+		this.repositoryP.save(new Producto("Azucar",5.50));
 
 
-        Venta vQueen = new Venta(20.00);
+        Venta vQueen = new Venta(20.90);
 		this.repositoryV.save(vQueen);
 
 
