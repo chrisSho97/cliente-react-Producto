@@ -1,4 +1,4 @@
-package com.example2.DuplicadoSemana11;
+package com.example2.Semanafinal;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

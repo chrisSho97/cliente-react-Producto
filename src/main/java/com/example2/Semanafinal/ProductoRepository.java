@@ -1,4 +1,4 @@
-package com.example2.DuplicadoSemana11;
+package com.example2.Semanafinal;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

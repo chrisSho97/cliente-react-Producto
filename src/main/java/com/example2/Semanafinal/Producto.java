@@ -1,4 +1,4 @@
-package com.example2.DuplicadoSemana11;
+package com.example2.Semanafinal;
 
 import java.util.Objects;
 
